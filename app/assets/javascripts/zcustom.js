@@ -399,23 +399,7 @@ jQuery(document).ready(function($){
 		  });
 		}
 
-		if(jQuery('#tweets_container').length) {
-			jQuery('#tweets_container .tweet_list').carouFredSel({
-				width: 'auto',
-				height: 'auto',
-				scroll: {
-					duration: 1000
-				},
-				direction: 'up',
-				items: {
-					height: 'auto',
-					visible: {
-						min: 1,
-						max: 1
-					}
-				}
-			});
-		}
+
 
 		//SLIDING BANNER...
 		if(jQuery('.slider-wrapper').length) {
@@ -440,48 +424,7 @@ jQuery(document).ready(function($){
 		}
 	});
 
-	/* Tweets */
-	if( $('.tweets').length ){
-		$(".tweets").tweet({
-			modpath: 'js/twitter/',
-			username: "envato",
-			count: 1,
-			loading_text: "loading tweets...",
-			template: "{text} {time}"
-		});
-	}
-
-	if($('.tweet_list').length > 0) {
-		$(".tweet_list").tweet({
-			modpath: 'js/twitter/',
-			username: "army",
-			count: 3,
-			loading_text: "loading tweets...",
-			template: "{text}{join}{time}"
-		});
-	}
-
-	if($('.tweetbox .tweet_list').length > 0) {
-		$(".tweetbox .tweet_list").tweet({
-			modpath: 'js/twitter/',
-			username: "christmas",
-			count: 3,
-			loading_text: "loading tweets...",
-			template: "{time}{text}{join}"
-		});
-	}
-
-	if($('#tweets_container').length) {
-		$("#tweets_container").tweet({
-			modpath: 'js/twitter/',
-			username: "envato",
-			count: 3,
-			loading_text: "loading tweets...",
-			join_text: '<i class="fa fa-twitter"></i>',
-			template: "{join}{text} - {time}"
-		});
-	}
-
+	
 	//Google Map
 	if( $('#map').length ) {
 		$("#map").gMap({

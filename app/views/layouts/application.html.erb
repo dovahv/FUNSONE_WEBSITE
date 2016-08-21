@@ -21,18 +21,9 @@
 <head>
 	<title>.::Fundación Social - Nueva Esparta::.</title>
   <%= csrf_meta_tags %>
-	  <%#= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
- <%= stylesheet_link_tag 'style.css' %>
- <%= stylesheet_link_tag 'shortcodes.css' %>
- <%= stylesheet_link_tag 'layerslider.css' %>
- <%= stylesheet_link_tag 'responsive.css' %>
- <%= stylesheet_link_tag 'meanmenu.css' %>
- <%= stylesheet_link_tag 'prettyPhoto.css' %>
- <%= stylesheet_link_tag 'animations.css' %>
- <%= stylesheet_link_tag 'font-awesome.min.css' %>
- <%= stylesheet_link_tag 'skyblue/style.css'%>
- <%= stylesheet_link_tag 'font.css'%>
- <%#= stylesheet_link_tag 'bootstrap.min.css'%>
+		<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true%>
+		<%= javascript_include_tag 'application', 'data-turbolinks-track' => true%>
+		<%=favicon_link_tag 'favicon.png', rel: 'shortcut icon', type: 'image/png'%>
 
 
 <!--<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -138,7 +129,6 @@
 	</div><!-- **inner-wrapper - End** -->
 
 </div><!-- **Wrapper - End** -->
-<%= javascript_include_tag 'application' %>
 	<!-- **jQuery** -->
     <%#= javascript_include_tag 'jquery-1.10.2.min.js','jquery-migrate.min.js','preloader.js','pace.min.js' ,'jquery.tabs.min.js','jquery.tipTip.minified.js','jquery-easing-1.3.js' ,'jquery.parallax-1.1.3.js','jquery.inview.js' ,'jquery.viewport.js','jquery.nav.js','layerslider.transitions.js','layerslider.kreaturamedia.jquery.js','greensock.js' %>
 
