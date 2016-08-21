@@ -10,6 +10,7 @@ gem 'puma'
 # Use SCSS for stylesheets
 #gem 'jquery-rails'
 gem "font-awesome-rails"
+gem 'jquery-ui-rails'
 gem "bootstrap-sass"
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
@@ -34,6 +35,7 @@ gem 'simple_form'
 gem 'devise'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem 'rails_12factor'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
@@ -52,4 +54,3 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
-gem 'rails_12factor', group: :production
