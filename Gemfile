@@ -2,9 +2,11 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.0'
-# Use mysql as the database for Active Record
-gem 'mysql2'
+# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'rails', '4.2.6'
+# Use sqlite3 as the database for Active Record
+gem 'postgresql'
+gem 'puma'
 # Use SCSS for stylesheets
 #gem 'jquery-rails'
 gem "font-awesome-rails"
@@ -29,7 +31,6 @@ gem 'carrierwave'
 gem "rmagick"
 gem 'simple_form'
 gem 'thin'
-gem 'hirb'
 
 gem 'devise'
 # Use ActiveModel has_secure_password
@@ -44,6 +45,7 @@ gem 'devise'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'hirb'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
@@ -51,3 +53,4 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
+gem 'rails_12factor', group: :production
