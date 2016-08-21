@@ -30,7 +30,6 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'carrierwave'
 gem "rmagick"
 gem 'simple_form'
-gem 'thin'
 
 gem 'devise'
 # Use ActiveModel has_secure_password
