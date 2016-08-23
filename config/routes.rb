@@ -11,14 +11,12 @@ Rails.application.routes.draw do
   resources :tipos
 
   resources :coordinadors
-  
+
   get 'home/index' => 'home#index'
   get 'home/:id/ayudas_sociales' => 'home#ayudas_sociales', as: :ayudas_sociales
   get 'home/ayudas' => 'home#ayudas', as: :ayudas
   get 'home/contacto' => 'home#contacto', as: :contacto
   get 'home/quienes_somos'=> 'home#quienes_somos', as: :quienes_somos
-  get 'home/noticias'=> 'home#noticias', as: :noticias
-  get 'home/galerias'=> 'home#galerias', as: :galerias
   get 'home/:id/single_noticia'=>'home#single_noticia', as: :single_noticia
   get 'home/:id/single_galeria'=>'home#single_galeria', as: :single_galeria
   get 'home/pazyvida'=> 'home#pazyvida', as: :pazyvida

@@ -77,12 +77,7 @@ class HomeController < ApplicationController
 				 flash[:notice] = 'Su mensaje ha sido enviado exitosamente =).'
 		end
 	end
-	def noticias
-	    @noticias=Noticium.order("created_at desc")
-	end
-	def galerias
-		@galerias=Gallery.order("created_at desc")
-	end
+
 	def single_noticia
 		@noticia=Noticium.find(params[:id])
 	end

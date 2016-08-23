@@ -8,36 +8,10 @@
   <div class="title-sep">
   </div>
 </div>
-<% @i=0 %>
-<% if !@galeria.blank? %>
-  <% for item in @galeria %>
-     <% @i=@i+1 %>
-     <% if !item.paintings.blank? %>
-      <div class="portfolio dt-sc-one-third column <% if (@i==1) %> <%= 'first' %> <% end -%>">
-          <!-- **portfolio-thumb - Starts** -->
-          <div class="portfolio-thumb">
-              <%= image_tag item.paintings.last.foto_url(:galery) if item.paintings.last.foto? %>
-              <div class="image-overlay">
-                  <%= link_to item.paintings.last.foto_url, :class => "zoom", "data-gal"=>"prettyPhoto[gallery]" do %><span class="fa fa-search"></span><% end %>
-                  <%= link_to single_galeria_path(item.id), :class =>"link" do %><span class="fa fa-link"></span> <% end %>
-              </div>
-          </div> <!-- **portfolio-thumb - Ends** -->
-          <!-- **portfolio-detail - Starts** -->
-          <div class="portfolio-detail">
-              <div class="views"><span class="fa fa-heart"></span><br/><a href="#">11</a></div>
-              <div class="portfolio-title">
-                  <h5> <%= link_to single_galeria_path(item.id) do %><%= item.nombre %> <% end %></h5>
-                  <p>Sample text here looks good</p>
-              </div>
-          </div> <!-- **portfolio-detail - Ends** -->
-      </div>
+<div class="text-center">
+  <!-- LightWidget WIDGET --><script src="//lightwidget.com/widgets/lightwidget.js"></script><iframe src="//lightwidget.com/widgets/f46214f3452c536cb1fcd8c4da7941a0.html" id="lightwidget_f46214f345" name="lightwidget_f46214f345"  scrolling="no" allowtransparency="true" class="lightwidget-widget" style="width: 40%; border: 0; overflow: hidden;"></iframe>
 
-     <% end%>
-  <% end %>
-
-
-<% end %>
-
+</div>
 </div>
 
           <div class="dt-sc-margin50"></div>
