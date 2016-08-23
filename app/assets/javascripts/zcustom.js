@@ -424,7 +424,7 @@ jQuery(document).ready(function($){
 		}
 	});
 
-	
+
 	//Google Map
 	if( $('#map').length ) {
 		$("#map").gMap({
