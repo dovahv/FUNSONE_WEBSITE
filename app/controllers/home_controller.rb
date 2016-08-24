@@ -60,12 +60,14 @@ class HomeController < ApplicationController
 			@msj   =params['msj']
 			@ip=request.remote_ip
 		#	@ip= IPSocket.getaddress(Socket.gethostname)where(ip:'127.0.0.1', email:'jeaninne33@gmail.com')
-			if !params['nombre'].blank? and !params['email'].blank? and !params['msj'].blank?
+			if !params['nombre'].blank? and !params['email'].blank? and !params['msj'].blank? and verify_recaptcha(model: @contacto)
 				  enviar_mensaje(@nombre,@email,@tlf,@msj)
 				  @existe=Contacto.where(ip:'#{@ip}',email:'#{@email}', msj:'#{@msj}')
 				  if @existe.blank?
 							Contacto.create(:nombre=>@nombre,:email=>@email,:tlf=>@tlf,:msj=>@msj,:ip=>@ip)
 				  end
+			else
+				 flash[:notice] = 'No ha pasado la verificación.'
 			end
 	end
 	def enviar_mensaje(nombre,email,tlf,msj)

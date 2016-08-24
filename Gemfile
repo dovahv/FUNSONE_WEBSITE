@@ -27,6 +27,7 @@ gem 'carrierwave'
 gem "rmagick"
 gem 'simple_form'
 gem 'devise'
+gem "recaptcha", require: "recaptcha/rails"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 gem 'rails_12factor'

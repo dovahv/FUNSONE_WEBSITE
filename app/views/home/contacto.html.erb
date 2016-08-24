@@ -83,6 +83,7 @@
                                 <p>  <%= text_area_tag :msj, nil, cols:4, rows:8,  :placeholder=>"Mensaje*", required: true  , oninvalid: "this.setCustomValidity('Campo Obligatorio')" , oninput: "setCustomValidity('')"%>
                               <%#= f.text_area  :msj, :placeholder=>"Mensaje*",label:"mensaje:", require: :true %>   </p>
 
+<%= recaptcha_tags %>
 
                             <p><%= submit_tag  ' Enviar Mensaje'%>
                               <%#= f.button :submit,  "Enviar Mensaje"  <i class="fa fa-envelope"></i> %>

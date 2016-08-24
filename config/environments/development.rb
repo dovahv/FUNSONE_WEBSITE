@@ -22,10 +22,10 @@ Rails.application.configure do
   address:              'smtp.gmail.com',
   port:                 587,
   domain:               'gmail.com',
-  user_name:     'informatica.funsone@gmail.com',
-  password:       'iwtbb2015',
-  authentication:       'plain',
-  enable_starttls_auto: true  }
+  user_name:     'web.funsone@gmail.com',
+  password:       'sistemasin2016',
+  authentication:       'plain'
+ }
   # Print deprecation notices to the Rails logger.
   config.active_support.deprecation = :log
 
