@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://funsone.herokuapp.com/</loc>
+</url>
+<url>
+  <loc>https://funsone.herokuapp.com/home/quienes_somos</loc>
+</url>
+<url>
+  <loc>https://funsone.herokuapp.com/home/ayudas</loc>
+</url>
+<url>
+  <loc>https://funsone.herokuapp.com/home/1/ayudas_sociales</loc>
+</url>
+<url>
+  <loc>https://funsone.herokuapp.com/home/2/ayudas_sociales</loc>
+</url>
+<url>
+  <loc>https://funsone.herokuapp.com/home/3/ayudas_sociales</loc>
+</url>
+<url>
+  <loc>https://funsone.herokuapp.com/home/4/ayudas_sociales</loc>
+</url>
+<url>
+  <loc>https://funsone.herokuapp.com/home/pazyvida</loc>
+</url>
+<url>
+  <loc>https://funsone.herokuapp.com/home/contacto</loc>
+</url>
+<url>
+  <loc>https://funsone.herokuapp.com/home/index.html</loc>
+</url>
+</urlset>
