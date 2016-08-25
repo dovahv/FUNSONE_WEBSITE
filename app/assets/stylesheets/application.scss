@@ -189,7 +189,7 @@ table {
 
 	body, .intro-text h2, .intro-text h4, .dt-sc-button, #main-menu ul li a, .entry-detail .read-more, #footer .widget ul li h6, .dt-sc-testimonial-wrapper h5, #main-menu ul li a, #commentform input[type="text"], #commentform input[type="password"], #commentform input[type="email"], #commentform input[type="url"], #commentform input[type="tel"], #commentform input[type="number"], #commentform input[type="range"], #commentform input[type="date"], #commentform input[type="search"], #commentform textarea, #commentform input.text { font-family: 'Open Sans', sans-serif; }
 
-	h1, h2, h3, h4, h5, h6, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="tel"], input[type="number"], input[type="range"], input[type="date"], textarea, input.text, select, input[type="search"], input[type="submit"], input[type="button"], .add_to_cart_button, .product_type_variable, .product-details .button, .add_to_wishlist, .features li a, .dt-sc-team p, .read-more, .intro-text .dt-sc-button, .entry-post .post-comments a, .entry-post .date p, .entry-post .dt-sc-button.small, .entry-post .entry-detail h6, .intro-text.type3 h2, .events .event-meta p, .entry-meta-data p, .intro-text.type4 h2, .pagination ul li a, .pagination .next-post a, .pagination .prev-post a, .breadcrumb, ul.commentlist li .author-name, ul.commentlist li .commentmetadata, ul.commentlist li .reply a, .blog-entry .entry-metadata, .post-nav-container a, .price_label, .widget_top_rated_products ul.product_list_widget li .amount, .intro-text.type5 h2, .woocommerce table.shop_table th, .woocommerce-page table.shop_table th, .woocommerce table.shop_table .product-subtotal span, label, .woocommerce .cart-collaterals .cart_totals th, .woocommerce-product-rating .price, .summary .description, blockquote, .dt-rev-author span, .side-nav-container ul li a, .error-info .back-menu a, .portfolio-detail .views a, .dom-pack .dom-range, .dom-pack del, .dom-pack > span, .dom-prices { font-family:'lato', sans-serif; }
+	h1, h2, h3, h4, h5, h6, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="tel"], input[type="number"], input[type="range"], input[type="date"], textarea, input.text, select, input[type="search"], input[type="button"], .add_to_cart_button, .product_type_variable, .product-details .button, .add_to_wishlist, .features li a, .dt-sc-team p, .read-more, .intro-text .dt-sc-button, .entry-post .post-comments a, .entry-post .date p, .entry-post .dt-sc-button.small, .entry-post .entry-detail h6, .intro-text.type3 h2, .events .event-meta p, .entry-meta-data p, .intro-text.type4 h2, .pagination ul li a, .pagination .next-post a, .pagination .prev-post a, .pbreadcrumb, ul.commentlist li .author-name, ul.commentlist li .commentmetadata, ul.commentlist li .reply a, .blog-entry .entry-metadata, .post-nav-container a, .price_label, .widget_top_rated_products ul.product_list_widget li .amount, .intro-text.type5 h2, .woocommerce table.shop_table th, .woocommerce-page table.shop_table th, .woocommerce table.shop_table .product-subtotal span, label, .woocommerce .cart-collaterals .cart_totals th, .woocommerce-product-rating .price, .summary .description, blockquote, .dt-rev-author span, .side-nav-container ul li a, .error-info .back-menu a, .portfolio-detail .views a, .dom-pack .dom-range, .dom-pack del, .dom-pack > span, .dom-prices { font-family:'lato', sans-serif; }
 
 	/*----*****---- << 1.3. Headings >> ----*****----*/
 
@@ -279,9 +279,8 @@ table {
 
 	textarea {  overflow: auto; resize: none; padding: 16px 15px; width:100%; }
 
-	input[type="submit"]:hover, input[type="reset"]:hover { background-color:#546d87; }
 
-	input[type="submit"], input[type="reset"], input[type="button"], button, .add_to_cart_button, .product_type_variable, .product-details .button, .add_to_wishlist{ color: #ffffff; cursor: pointer; float: right; font-size: 15px; padding:16px 16px 15px 16px; border-radius:2px; }
+	input[type="reset"], input[type="button"], button, .add_to_cart_button, .product_type_variable, .product-details .button, .add_to_wishlist{ color: #ffffff; cursor: pointer; float: right; font-size: 15px; padding:16px 16px 15px 16px; border-radius:2px; }
 
 	#searchform .search-icon { background: url("search.png") no-repeat scroll center center rgba(0, 0, 0, 0); border: medium none; border-radius: 0 2px 2px 0; margin-top: 0; min-height: 47px; min-width: 52px; padding: 10px 23px; position: absolute; left: 0; text-indent: -9999px; top: 0; }
 
@@ -306,7 +305,7 @@ table {
 
 	/*----*****---- << 1.6. Transition >> ----*****----*/
 
-	a, .carousel-arrows a, .product-carousel a, .portfolio:hover .portfolio-detail, .portfolio .image-overlay a, .portfolio .image-overlay, #main-menu ul li a, .entry-detail h5 a:hover, .read-more span, .sorting-container a, .portfolio .views, .portfolio-title h5 a, .portfolio-title h5, .portfolio .views a, .portfolio-title p, .mailchimp .dt-sc-social-icons li, input[type="submit"], input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="tel"], input[type="number"], input[type="range"], input[type="date"], input[type="search"], textarea, input.text, .products .product-title a, .products .product-title, .events .event-detail h5 a, .events .event-meta p a, .entry-meta-data p a, .widget_categories ul li a, .widget_categories ul li a:before, .widget.widget_tag_cloud .tagcloud a, .blog-post.type3 .entry-detail h4 a, .pagination ul li a, .pagination .next-post a, .pagination .prev-post a, .pagination .next-post a:before, .pagination .prev-post a:before, .breadcrumb a, .blog-entry h4 a, .blog-entry .entry-metadata p a, .project-details ul li p a, .post-nav-container .post-prev-link, .post-nav-container .post-next-link, .widget_product_categories ul li a, .widget_product_categories ul li a:before, .woocommerce table.cart a.remove, .woocommerce table.shop_table .product-name a, .woocommerce .button, .woocommerce-review-link, .product .summary .quantity .plus, .product .summary .quantity .minus, .side-nav-container ul li:hover .fa, .image-overlay, .partner-carousel a, .side-nav-container ul li, .portfolio-thumb img, .read-more, .top-bar, .is-sticky .header.header4 #logo, .dt-sc-icon-list li a, .top-social-icons .fa, .header8 #main-menu > ul > li > a, .header8 #main-menu > ul > li:before, .product_cart_list li a .remove:hover, .bg-content p a, .button, .parallax-content-bg2 .parallax-content p a, input[type="reset"] { -webkit-transition:all 300ms linear 0s; -moz-transition:all 300ms linear 0s; -o-transition:all 300ms linear 0s; -ms-transition:all 300ms linear 0s; transition:all 300ms linear 0s; }
+	a, .carousel-arrows a, .product-carousel a, .portfolio:hover .portfolio-detail, .portfolio .image-overlay a, .portfolio .image-overlay, #main-menu ul li a, .entry-detail h5 a:hover, .read-more span, .sorting-container a, .portfolio .views, .portfolio-title h5 a, .portfolio-title h5, .portfolio .views a, .portfolio-title p, .mailchimp .dt-sc-social-icons li, input[type="text"], input[type="password"], input[type="email"], input[type="url"], input[type="tel"], input[type="number"], input[type="range"], input[type="date"], input[type="search"], textarea, input.text, .products .product-title a, .products .product-title, .events .event-detail h5 a, .events .event-meta p a, .entry-meta-data p a, .widget_categories ul li a, .widget_categories ul li a:before, .widget.widget_tag_cloud .tagcloud a, .blog-post.type3 .entry-detail h4 a, .pagination ul li a, .pagination .next-post a, .pagination .prev-post a, .pagination .next-post a:before, .pagination .prev-post a:before, .pbreadcrumb a, .blog-entry h4 a, .blog-entry .entry-metadata p a, .project-details ul li p a, .post-nav-container .post-prev-link, .post-nav-container .post-next-link, .widget_product_categories ul li a, .widget_product_categories ul li a:before, .woocommerce table.cart a.remove, .woocommerce table.shop_table .product-name a, .woocommerce .button, .woocommerce-review-link, .product .summary .quantity .plus, .product .summary .quantity .minus, .side-nav-container ul li:hover .fa, .image-overlay, .partner-carousel a, .side-nav-container ul li, .portfolio-thumb img, .read-more, .top-bar, .is-sticky .header.header4 #logo, .dt-sc-icon-list li a, .top-social-icons .fa, .header8 #main-menu > ul > li > a, .header8 #main-menu > ul > li:before, .product_cart_list li a .remove:hover, .bg-content p a, .button, .parallax-content-bg2 .parallax-content p a, input[type="reset"] { -webkit-transition:all 300ms linear 0s; -moz-transition:all 300ms linear 0s; -o-transition:all 300ms linear 0s; -ms-transition:all 300ms linear 0s; transition:all 300ms linear 0s; }
 
 	/*----*****---- << 1.7. Box sizing >> ----*****----*/
 
@@ -581,7 +580,7 @@ table {
 
 	/*----*****---- << 2.1. Container >> ----*****----*/
 
-	.container { width:1170px; margin:0 auto; position:relative; clear:both; }
+	.container { width:1170px; margin:0 auto;width:100%; position:relative; clear:both; }
 
 	.wrapper { clear:both; width:100%; margin:0px; padding:0px; float:left; }
 	.inner-wrapper { margin:0px; width:100%; float:left; padding:0px; }
@@ -604,7 +603,7 @@ table {
 	.top-menu .fa { font-size:16px; font-family:FontAwesome; font-weight:normal; margin-right:3px; }
 
 
-	.top-right { float:right; width:30%; margin:0px; padding:0px 8px; border-right:1px dashed #ededed;  border-left:1px dashed #ededed; }
+	.top-right {  margin:0px; padding:0px 8px; border-right:1px dashed #ededed;  border-left:1px dashed #ededed; }
 	.top-right span { padding:0px 8px; }
 
 	.top-right .register { float:left; margin:0; width:100%; }
@@ -850,28 +849,6 @@ table {
 	.main-title h1, .main-title h3, .main-title h2 { margin-bottom:0px; color:#ffffff; float:left; }
 	.main-title h1 { font-size:26px; }
 	.main-title { float:left; width:100%; margin:0; padding:0; position:relative; }
-	.breadcrumb { float: right; font-size: 14px; margin:5px 15px 0px 0px; padding: 0; }
-	.breadcrumb a { font-size:14px; line-height:18px; color:#92a7bb; }
-	.breadcrumb .fa { width:14px; height:14px; text-align:center; border:1px solid #92a7bb; border-radius:2px; margin:0px 10px; }
-
-	.breadcrumb-wrapper { background-color:#191919; padding:28px 0 27px; float:left; width:100%; }
-	.breadcrumb-wrapper.type2 .breadcrumb .fa, .breadcrumb-wrapper.type9 .breadcrumb .fa { border:none; font-size:16px; }
-	.breadcrumb-wrapper.type2 .main-title h1 { color:#fff; }
-
-	.breadcrumb-wrapper.type3 { background-color:#f8f8f8; box-shadow:inset 0 2px 5px -2px rgba(0, 0, 0, 0.15); }
-	.breadcrumb-wrapper .main-title h1 { color:#333; }
-	.breadcrumb .default { margin:0 4px; }
-
-	.breadcrumb-wrapper.type4 { background-color:#f8f8f8; background-image:url(breadcrumb-bg.png); background-repeat:no-repeat; background-position:center center; border-bottom:1px solid #eaeaea; border-top:1px solid #eaeaea; }
-
-	.breadcrumb-wrapper.type7, .breadcrumb-wrapper.type6 { background-color:#fff; border-bottom:1px solid #eaeaea; }
-	.breadcrumb-wrapper.type7 .breadcrumb, .breadcrumb-wrapper.type8 .breadcrumb { float:left; display:block; width:100%; margin:0; }
-	.breadcrumb-wrapper.type7 .main-title h1, .breadcrumb-wrapper.type8 .main-title h1 { margin-bottom:25px; }
-
-	.breadcrumb-wrapper.type5, .breadcrumb-wrapper.type8 { background-color:#f8f8f8; border-bottom:1px solid #eaeaea; border-top:1px solid #eaeaea; }
-
-	.breadcrumb-wrapper.type9 { background-color:#fff; }
-	.breadcrumb-wrapper.type9 .breadcrumb { float:left; display:block; width:100%; margin:0; }
 
 	/*----*****---- << 2.4.2. Blog >> ----*****----*/
 
@@ -1048,7 +1025,7 @@ table {
 		#commentform p { margin-bottom:0; }
 
 		.form-submit input[type="submit"] { border:1px solid #000; color:#000; }
-		.form-submit input[type="submit"]:hover { background:#000; color:#fff; }
+
 
 		#respond, form#commentform { display:inline-block; width:100%; }
 		#respond h3 { margin-bottom:30px; }
@@ -1407,7 +1384,6 @@ table {
 	.error-info h3 { font-size:22px; color:#616161; }
 	.error-info h2 { font-size:40px; font-weight:bold; color:#252525; margin-bottom:10px; }
 	.error-info p { color:#616161; }
-	.error-info #searchform input[type="submit"] { min-height: 60px; position:absolute; right:0; top:10px; padding: 16px 30px 15px; border-radius:0 2px 2px 0; }
 	.error-info #searchform { float:none; width:45%; margin:0 auto; position:relative; clear:both; }
 	.error-info #searchform input.search-icon { padding:0; border-right:1px solid #eaeaea; width:50px; }
 	.error-info #searchform input[type="text"] { padding:21px 15px 21px 63px; background-color:inherit; }
@@ -1654,5 +1630,25 @@ table {
 	#toTop { background-image:url(ui.totop@2x.png); background-size:40px 81px; }
 
 	}
-/*Para el alert del booptrap*/
-	.alert{padding:15px;margin-bottom:20px;border:1px solid transparent;border-radius:4px}.alert h4{margin-top:0;color:inherit}.alert .alert-link{font-weight:700}.alert>p,.alert>ul{margin-bottom:0}.alert>p+p{margin-top:5px}.alert-dismissable,.alert-dismissible{padding-right:35px}.alert-dismissable .close,.alert-dismissible .close{position:relative;top:-2px;right:-21px;color:inherit}.alert-success{color:#3c763d;background-color:#dff0d8;border-color:#d6e9c6}.alert-success hr{border-top-color:#c9e2b3}.alert-success .alert-link{color:#2b542c}.alert-info{color:#31708f;background-color:#d9edf7;border-color:#bce8f1}.alert-info hr{border-top-color:#a6e1ec}.alert-info .alert-link{color:#245269}.alert-warning{color:#8a6d3b;background-color:#fcf8e3;border-color:#faebcc}.alert-warning hr{border-top-color:#f7e1b5}.alert-warning .alert-link{color:#66512c}.alert-danger{color:#a94442;background-color:#f2dede;border-color:#ebccd1}.alert-danger hr{border-top-color:#e4b9c0}.alert-danger .alert-link{color:#843534}@-webkit-keyframes progress-bar-stripes{from{background-position:40px 0}to{background-position:0 0}}@-o-keyframes progress-bar-stripes{from{background-position:40px 0}to{background-position:0 0}}@keyframes progress-bar-stripes{from{background-position:40px 0}to{background-position:0 0}}
+	.pbreadcrumb { float: right; font-size: 14px; margin:5px 15px 0px 0px; padding: 0; }
+	.pbreadcrumb a { font-size:14px; line-height:18px; color:#92a7bb; }
+	.pbreadcrumb .fa { width:14px; height:14px; text-align:center; border:1px solid #92a7bb; border-radius:2px; margin:0px 10px; }
+
+	.pbreadcrumb-wrapper { background-color:#191919; padding:28px 0 27px; float:left; width:100%; }
+	.pbreadcrumb-wrapper.type2 .pbreadcrumb .fa, .pbreadcrumb-wrapper.type9 .pbreadcrumb .fa { border:none; font-size:16px; }
+	.pbreadcrumb-wrapper.type2 .main-title h1 { color:#fff; }
+
+	.pbreadcrumb-wrapper.type3 { background-color:#f8f8f8; box-shadow:inset 0 2px 5px -2px rgba(0, 0, 0, 0.15); }
+	.pbreadcrumb-wrapper .main-title h1 { color:#333; }
+	.pbreadcrumb .default { margin:0 4px; }
+
+	.pbreadcrumb-wrapper.type4 { background-color:#f8f8f8; background-image:url(pbreadcrumb-bg.png); background-repeat:no-repeat; background-position:center center; border-bottom:1px solid #eaeaea; border-top:1px solid #eaeaea; }
+
+	.pbreadcrumb-wrapper.type7, .pbreadcrumb-wrapper.type6 { background-color:#fff; border-bottom:1px solid #eaeaea; }
+	.pbreadcrumb-wrapper.type7 .pbreadcrumb, .pbreadcrumb-wrapper.type8 .pbreadcrumb { float:left; display:block; width:100%; margin:0; }
+	.pbreadcrumb-wrapper.type7 .main-title h1, .pbreadcrumb-wrapper.type8 .main-title h1 { margin-bottom:25px; }
+
+	.pbreadcrumb-wrapper.type5, .pbreadcrumb-wrapper.type8 { background-color:#f8f8f8; border-bottom:1px solid #eaeaea; border-top:1px solid #eaeaea; }
+
+	.pbreadcrumb-wrapper.type9 { background-color:#fff; }
+	.pbreadcrumb-wrapper.type9 .pbreadcrumb { float:left; display:block; width:100%; margin:0; }

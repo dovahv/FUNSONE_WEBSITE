@@ -60,7 +60,7 @@ jQuery(document).ready(function($){
 					var marginFromLeft = MegaMenuChildContainerWidth - SwMinuOffset;
 					var marginFromLeftActual = (marginFromLeft) + 25;
 					var marginLeftFromScreen = "-"+marginFromLeftActual+"px";
-					$(this).css('left',marginLeftFromScreen);
+					$(this).css('right',marginLeftFromScreen);
 				}
 
 			});
@@ -78,10 +78,10 @@ jQuery(document).ready(function($){
 						var MegaMinuContainer	= ( (MegaMenuChildContainerWidth - containerWidth)/2 ) + 10;
 						var marginLeftFromContainerVal = marginLeftFromContainer - MegaMinuContainer;
 						marginLeftFromContainerVal = "-"+marginLeftFromContainerVal+"px";
-						$(this).css('left',marginLeftFromContainerVal);
+						$(this).css('right',marginLeftFromContainerVal);
 					} else {
 						marginLeftFromContainer = "-"+marginLeftFromContainer+"px";
-						$(this).css('left',marginLeftFromContainer);
+						$(this).css('right',marginLeftFromContainer);
 					}
 				}
 
@@ -148,11 +148,7 @@ jQuery(document).ready(function($){
 	$(window).smartresize(function(){
 		megaMenu();
 		/* Blog Template Isotope */
-		if( $(".apply-isotope").length ){
-			$(".apply-isotope").each(function(){
-				$(this).isotope({itemSelector : '.column',transformsEnabled:false,masonry: { gutterWidth: 25} });
-			});
-		}
+
 
 		if( !isMobile ){
 			currentWidth = window.innerWidth || document.documentElement.clientWidth;
@@ -224,16 +220,7 @@ jQuery(document).ready(function($){
 		//Portfolio isotope End
 	});	//Window Load End
 
-	//Donutchart
-  	jQuery(".dt-sc-donutchart").each(function(){
-		var $this = jQuery(this);
-	 	var $bgColor =  ( $this.data("bgcolor") !== undefined ) ? $this.data("bgcolor") : "#f5f5f5";
-	 	var $fgColor =  ( $this.data("fgcolor") !== undefined ) ? $this.data("fgcolor") : "#000000";
-	 	var $size = ( $this.data("size") !== undefined ) ? $this.data("size") : "120";
 
-	 	$this.donutchart({'size': $size, 'fgColor': $fgColor, 'bgColor': $bgColor , 'donutwidth' : 10 });
-	 	$this.donutchart('animate');
-	});//Donutchart Shortcode Ends
 
 	/* Progress Bar */
 	 animateSkillBars();

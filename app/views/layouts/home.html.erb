@@ -62,13 +62,13 @@
         <div class="top-bar">
             <div class="container">
 
-                <ul class="top-menu">
-                    <li> <i class="fa fa-phone"></i>  Alguna consulta? Llamanos: <span> 0295-2424168</span></li>
-                    <li> <i class="fa fa-envelope"></i>  Correo: <a href="#" title="Design Themes"> atencion.funsone@gmail.com </a></li>
+                <ul class="col-xs-12  col-md-8 col-lg-8 top-menu">
+                    <li class="col-xs-12  col-md-6 col-lg-6 "> <i class="fa fa-envelope phone"></i>  Alguna consulta? Llamanos: <span>0295-2424168</span></li>
+                    <li class="col-xs-12  col-md-6 col-lg-6 "> <i class="fa fa-envelope"></i>  Correo: <a href="#" title="Design Themes"> atencion.funsone@gmail.com </a></li>
                 </ul>
 
-                <div class="top-right">
-                <%= image_tag "banner_pueblo.png"%>
+                <div class=" col-xs-12 col-md-4 col-lg-4 top-right">
+                <%= image_tag "banner_pueblo.png" , class: "pull-right"%>
                     <!--<span>Socializa con nosotros</span>
                     <ul class="dt-sc-social-icons">
                         <li> <a href="#" title="facebook"> <i class="fa fa-facebook"></i>  </a> </li>
@@ -88,12 +88,14 @@
                 <div class="container">
 
                     <!-- **Logo - End** -->
+
                     <div id="logo">
-                        <a href="index.html" title="Priority"> <%= image_tag "logo1.png" %> </a>
-                    </div><!-- **Logo - End** -->
+                        <a href="/" title="Priority"> <%= image_tag "logo1.png" %> </a>
+                    </div>
 
 
-                            <%= render "layouts/menu" %>
+                              <%= render "layouts/menu" %>
+                          
 
 
 
