@@ -70,6 +70,6 @@ class TiposController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def tipo_params
-      params.require(:tipo).permit(:objetivo, :requisito, :tipo, :contactos, :nombre_ayuda)
+      params.require(:tipo).permit(:objetivo, :requisito, :tipo, :contactos, :nombre_ayuda,:descripcion)
     end
 end

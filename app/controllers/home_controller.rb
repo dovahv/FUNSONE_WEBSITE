@@ -8,11 +8,11 @@ class HomeController < ApplicationController
 	end
 
 	def pazyvida
-		@resul = Institucion.where(:tipo=> "Paz Y vida")
+		@resul = Institucion.where(:tipo=> "Paz y Vida")
 	end
 
 	def ayudas_sociales
-		@ayudas = Tipo.where(:id=>params[:id])
+		@ayudas = Tipo.find params[:id]
 		#@solicitud =  Solicitud.new
 		flash[:notice] = ''
 		@cedula =params['cedula']
