@@ -1,14 +1,3 @@
-
-/* #######################################################################
-
-	meanMenu
-	--------
-	
-	To be used with jquery.meanmenu.js by Chris Wharton (http://www.meanthemes.com/plugins/meanmenu/)
-
-####################################################################### */
-
-/* hide the link until viewport size is reached */
 a.meanmenu-reveal {
 	display: none;
 }
@@ -24,25 +13,24 @@ a.meanmenu-reveal {
 	width: 22px;
 	height: 22px;
 	padding: 23px 15px 23px 20px;
-	position: absolute;
+	position: relative;
 	top:0px;
 	right: 0;
 	cursor: pointer;
-	color: #fff;
+	color: black;
 	text-decoration: none;
 	font-size: 16px;
 	text-indent: -9999em;
 	line-height: 22px;
 	font-size: 1px;
 	display: block;
-	font-family: Arial, Helvetica, sans-serif;
 	font-weight: 700;
 	z-index:9999;
 }
 
 .mean-container a.meanmenu-reveal span {
 	display: block;
-	background: #fff;
+	background: black;
 	height: 3px;
 	margin-top: 3px;
 }
@@ -72,7 +60,7 @@ a.meanmenu-reveal {
 	padding: 1em 5%;
 	margin: 0;
 	text-align: left;
-	color: #fff;
+	color: black;
 	border-top: 1px solid #383838;
 	border-top: 1px solid rgba(255,255,255,0.5);
 	text-decoration: none;
@@ -111,7 +99,7 @@ a.meanmenu-reveal {
 }
 
 .mean-container .mean-nav ul li a:hover {
-	color:#ffffff;
+	color:black;
 }
 
 .mean-container .mean-nav ul li a.mean-expand {
@@ -167,9 +155,10 @@ a.meanmenu-reveal {
 	filter: alpha(opacity=75);
 	text-shadow: none !important;
 	visibility: visible;
+	color: black;
+
 	text-transform: uppercase;
 	display: block;
 	float: left;
-	color:#ffffff;
+
 }
-/*.mean-container .mean-nav ul li li li span { padding:1em 15%; }*/
